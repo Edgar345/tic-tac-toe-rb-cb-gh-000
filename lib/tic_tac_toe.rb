@@ -12,7 +12,7 @@ def play board
   # end
 
   until won? do
-
+    turn board
   end
 end
 
