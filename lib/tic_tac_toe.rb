@@ -1,6 +1,6 @@
 # Helper Method
 def play board
-
+  puts "play method"
 end
 
 def turn_count board
