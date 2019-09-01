@@ -14,6 +14,8 @@ def play board
   until won? do
     turn board
   end
+
+  puts "done"
 end
 
 def turn_count board
