@@ -11,7 +11,7 @@ def play board
   #   tell the players it has been a draw
   # end
 
-  until won? do
+  until won?(board) do
     turn board
   end
 
