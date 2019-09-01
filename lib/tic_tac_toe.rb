@@ -10,6 +10,10 @@ def play board
   # else if the game was a draw
   #   tell the players it has been a draw
   # end
+
+  until won? do
+
+  end
 end
 
 def turn_count board
