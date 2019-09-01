@@ -26,7 +26,8 @@ def turn board
   puts "Please enter 1-9:"
   input = input_to_index (gets.to_i)
   if valid_move? board, input
-    move(board, input)
+    token = current_player board
+    move(board, input, token)
     display_board board
   else
     turn board
